@@ -1,3 +1,4 @@
 Welcome to file1
 Inserting new text
 Hello world
+echo hostname 
