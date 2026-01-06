@@ -1,2 +1,3 @@
 Welcome to file2
 echo hostname
+echo user
