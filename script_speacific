@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Check if correct number of arguments are provided
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 <search_word> <filename>"
+    exit 1
+fi
+
+WORD=$1
+FILE=$2
+
+# Search and print only matching lines
+grep -w "$WORD" "$FILE"
+
